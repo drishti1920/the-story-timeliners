@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Menu } from "lucide-react";
 import "./HeroSection.css";
 import bacngroundVideo from "../../../../assets/videos/hero-bg.mp4";
 
