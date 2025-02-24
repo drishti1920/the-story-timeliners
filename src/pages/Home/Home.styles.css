@@ -1,0 +1,18 @@
+.home {
+  background-color: var(--light-color);
+  min-height: 100vh; /* This ensures the background covers the full viewport */
+}
+
+.home h1 {
+  font-family: var(--font-family-base);
+  font-weight: 700; /* Bold */
+}
+
+.home p {
+  font-family: var(--font-family-base);
+  font-weight: 400; /* Regular */
+}
+
+.home .highlight {
+  font-weight: 500; /* Medium */
+} 
