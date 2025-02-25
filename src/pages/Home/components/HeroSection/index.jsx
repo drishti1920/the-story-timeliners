@@ -7,7 +7,7 @@ const HeroSection = () => {
 
   return (
     <header className="hero-header">
-      <div className="container">
+      {/* <div className="container">
       
         <section className="showcase">
           <h1>Curvy Road in Snow Covered Forest</h1>
@@ -23,7 +23,7 @@ const HeroSection = () => {
           </p>
           <button>See More</button>
         </section>
-      </div>
+      </div> */}
 
       <div className="video-container">
         <video src={bacngroundVideo} autoPlay loop muted />

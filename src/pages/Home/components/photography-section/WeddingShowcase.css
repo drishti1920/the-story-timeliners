@@ -1,0 +1,98 @@
+.wedding-showcase {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f5f0;
+  }
+  
+  .wedding-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .wedding-card {
+    width: calc(25% - 20px);
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .wedding-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .wedding-image-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .wedding-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .wedding-card:hover .wedding-image {
+    transform: scale(1.05);
+  }
+  
+  .wedding-info {
+    margin-top: 12px;
+    text-align: left;
+  }
+  
+  .couple-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+    color: #333;
+  }
+  
+  .wedding-details {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .wedding-location, .wedding-date {
+    font-style: normal;
+  }
+  
+  .separator {
+    margin: 0 2px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 1024px) {
+    .wedding-card {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .wedding-card {
+      width: calc(50% - 20px);
+    }
+    
+    .wedding-image-container {
+      height: 350px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wedding-card {
+      width: 100%;
+    }
+    
+    .wedding-image-container {
+      height: 300px;
+    }
+  }
