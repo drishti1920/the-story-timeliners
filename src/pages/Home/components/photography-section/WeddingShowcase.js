@@ -15,14 +15,14 @@ const WeddingShowcase = () => {
       couple: 'Reva & Zach',
       date: 'Oct 7, 2024',
       image: photo1,
-      location: ''
+      location: 'Jaipur'
     },
     {
       id: 2,
       couple: 'Sarah & James',
       date: 'Aug 25, 2024',
       image: photo2,
-      location: ''
+      location: 'Udaipur'
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const WeddingShowcase = () => {
       couple: 'Kiara & Siddharth',
       date: 'Apr 24, 2024',
       image: photo4,
-      location: ''
+      location: 'Lucknow'
     }
   ];
 

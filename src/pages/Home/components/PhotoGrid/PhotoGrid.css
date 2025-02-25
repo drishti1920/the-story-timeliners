@@ -27,10 +27,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Optional hover effect */
-.picture-container img:hover {
-  transform: scale(1.05);
-}
 
 /* Media queries for adjusting grid on different screen sizes */
 @media (max-width: 1200px) {

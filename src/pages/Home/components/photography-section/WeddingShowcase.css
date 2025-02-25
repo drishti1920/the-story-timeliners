@@ -1,9 +1,7 @@
 .wedding-showcase {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: var(--spacing-xxl) auto;
     padding: 20px;
-    background-color: #f9f5f0;
   }
   
   .wedding-grid {
@@ -19,12 +17,9 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    transition: transform 0.3s ease;
+    cursor: pointer;
   }
   
-  .wedding-card:hover {
-    transform: translateY(-5px);
-  }
   
   .wedding-image-container {
     width: 100%;
@@ -40,7 +35,7 @@
   }
   
   .wedding-card:hover .wedding-image {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
   }
   
   .wedding-info {

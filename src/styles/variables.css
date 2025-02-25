@@ -9,6 +9,7 @@
   --light-color: #f8f9fa;
   --dark-color: #343a40;
   --text-color: #ffffff;
+  --background-color: hsla(34,35%,91%,1);
 
   /* Typography */
   --font-family-base: 'Aeonik', -apple-system, BlinkMacSystemFont, sans-serif;
