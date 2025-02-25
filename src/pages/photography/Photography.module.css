@@ -1,0 +1,41 @@
+.photographyContainer {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 8rem 20px;
+    
+  }
+  
+  .photographyGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  
+  .cardWrapper {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .photographyGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .photographyGrid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .photographyGrid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    
+    .photographyContainer {
+      padding: 30px 15px;
+    }
+  }
