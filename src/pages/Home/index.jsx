@@ -12,7 +12,6 @@ const Home = () => {
       <About/>
       <PhotoGrid />
       <WeddingShowcase/>
-      {/* Other sections will go here */}
     </div>
   );
 };

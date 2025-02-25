@@ -13,8 +13,9 @@ const AppRoutes = () => {
           <Route path="challenges" element={<div>Challenges Page</div>} />
           <Route path="blogs" element={<div>Blogs Page</div>} />
           <Route path="learning-path" element={<div>Learning Path Page</div>} />
-          <Route path="*" element={<NotFound />} />
         </Route>
+        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </BrowserRouter>
   );
