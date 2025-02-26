@@ -41,17 +41,7 @@ const Navbar = () => {
             Photography
           </Link>
         </li>
-        <li>
-          <Link
-            to="/about"
-            className={`nav-link ${
-              location.pathname === "/learning-path" ? "active" : ""
-            }`}
-            onClick={() => setIsMenuOpen(false)}
-          >
-            About
-          </Link>
-        </li>
+        
 
         <li>
           <Link
